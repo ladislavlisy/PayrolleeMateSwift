@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DDAF01BE398E60B59E652B6 /* GeneralCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAFEC79AFD70058EAD7365 /* GeneralCollection.swift */; };
+		8DDAF17A0558984954DDC1E1 /* PayrolleeMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF94AD384A840A421749C /* PayrolleeMateTests.swift */; };
+		8DDAF1F056E002284C1A6365 /* TestMonthPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF725FCAF243C421B8866 /* TestMonthPeriod.swift */; };
+		8DDAF3CF555697551B17E608 /* DecRounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAFB61D661574A805EE138 /* DecRounding.swift */; };
+		8DDAF478E7B3B49157621F0D /* SpanOfMonths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF274D69D326D83729846 /* SpanOfMonths.swift */; };
+		8DDAF480CF47326B5E3960AC /* TestIntegerRoundingHundredsUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF14881DCBF5AC2DE51A1 /* TestIntegerRoundingHundredsUp.swift */; };
+		8DDAF532232A4AEA5DF8B941 /* SpanOfYears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAFE01758A732E065B1A41 /* SpanOfYears.swift */; };
+		8DDAF6911B354C082BB775D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DDAFDDC7FF03CB4AA48B9FB /* Main.storyboard */; };
+		8DDAF730082545F60DEC8A88 /* TestDecimalRoundingToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF350BFCBC4337A3051BC /* TestDecimalRoundingToInt.swift */; };
+		8DDAF8424D777F143519CD83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF644F72FC166FA409F4E /* ViewController.swift */; };
+		8DDAF99BBCD4595F986C99BF /* DecOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF61C3DFC6457DA80205E /* DecOperations.swift */; };
+		8DDAF9C5BF04772D69FAEB0A /* IntRounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF90420F4C9EB7B31D187 /* IntRounding.swift */; };
+		8DDAFA723CFC1EBABEFC0870 /* PayRounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF778D619C30257F82FE0 /* PayRounding.swift */; };
+		8DDAFB8AE6F936F25EA42B64 /* TestIntegerRoundingUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAFBDE64F85DC7DE2C0261 /* TestIntegerRoundingUp.swift */; };
+		8DDAFBD0E94F0DA665346104 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF1A9FD5E966332438477 /* AppDelegate.swift */; };
+		8DDAFC05B05A756C9C35B67A /* TestIntegerRoundingHundredsDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF35554FBD73C4E24EBD5 /* TestIntegerRoundingHundredsDown.swift */; };
+		8DDAFC9094467A32BEF747F7 /* TestSpanOfYears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAFB511D33C69C7FDF6BA1 /* TestSpanOfYears.swift */; };
+		8DDAFCC7202B4C46CBF8C0D8 /* SeqOfYears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF16FB58DF0F9AFD22393 /* SeqOfYears.swift */; };
+		8DDAFCF31A4098011C7C110A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DDAFFD797D8509AE72FC4F7 /* Images.xcassets */; };
+		8DDAFD07B4274E2476F1E559 /* SymbolName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF3AFF7C9552003D97FF0 /* SymbolName.swift */; };
+		8DDAFD398177738563B8AEC5 /* TestDecimalRoundingDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF8836F3AC635E77807D9 /* TestDecimalRoundingDown.swift */; };
+		8DDAFE6C1F60A9649AA159CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DDAF2FCBBC10692B6C8AD67 /* LaunchScreen.xib */; };
+		8DDAFEAB46B12A957099617D /* TestDecimalRoundingUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAFA41518063EF102924B6 /* TestDecimalRoundingUp.swift */; };
+		8DDAFEB1EE8B06E1E90CD3C0 /* TestIntegerRoundingDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF27F64C5301EAE37391F /* TestIntegerRoundingDown.swift */; };
+		8DDAFF3083BFAA79861BB3BA /* MonthPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF55F209A992B1E5BCE6E /* MonthPeriod.swift */; };
+		8DDAFF311B7F42B2EADD962B /* GeneralFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAFBD16E7FF93D856409C6 /* GeneralFactory.swift */; };
+		8DDAFF5587D36D511318AF6B /* TestDecimalRoundingHundredsUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAFF557096A357D7F956BF /* TestDecimalRoundingHundredsUp.swift */; };
+		8DDAFFA10AB267845CBD2370 /* TestDecimalRoundingHundredsDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAFA3B8B257FD371184D42 /* TestDecimalRoundingHundredsDown.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DDAFDF5CE98762EC2F5D6A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DDAF12A8A96CAE1A4D00710 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DDAFB9242E893409322D36D;
+			remoteInfo = PayrolleeMate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DDAF14881DCBF5AC2DE51A1 /* TestIntegerRoundingHundredsUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestIntegerRoundingHundredsUp.swift; sourceTree = "<group>"; };
+		8DDAF16FB58DF0F9AFD22393 /* SeqOfYears.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeqOfYears.swift; sourceTree = "<group>"; };
+		8DDAF1A64217510120F8E1E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8DDAF1A9FD5E966332438477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DDAF2285FC11511070CB62A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		8DDAF22E7FBBD287FA4CAE55 /* PayrolleeMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayrolleeMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DDAF274D69D326D83729846 /* SpanOfMonths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpanOfMonths.swift; sourceTree = "<group>"; };
+		8DDAF27F64C5301EAE37391F /* TestIntegerRoundingDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestIntegerRoundingDown.swift; sourceTree = "<group>"; };
+		8DDAF350BFCBC4337A3051BC /* TestDecimalRoundingToInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDecimalRoundingToInt.swift; sourceTree = "<group>"; };
+		8DDAF35554FBD73C4E24EBD5 /* TestIntegerRoundingHundredsDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestIntegerRoundingHundredsDown.swift; sourceTree = "<group>"; };
+		8DDAF3AFF7C9552003D97FF0 /* SymbolName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymbolName.swift; sourceTree = "<group>"; };
+		8DDAF55F209A992B1E5BCE6E /* MonthPeriod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthPeriod.swift; sourceTree = "<group>"; };
+		8DDAF61C3DFC6457DA80205E /* DecOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecOperations.swift; sourceTree = "<group>"; };
+		8DDAF644F72FC166FA409F4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DDAF725FCAF243C421B8866 /* TestMonthPeriod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestMonthPeriod.swift; sourceTree = "<group>"; };
+		8DDAF778D619C30257F82FE0 /* PayRounding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayRounding.swift; sourceTree = "<group>"; };
+		8DDAF8836F3AC635E77807D9 /* TestDecimalRoundingDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDecimalRoundingDown.swift; sourceTree = "<group>"; };
+		8DDAF90420F4C9EB7B31D187 /* IntRounding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntRounding.swift; sourceTree = "<group>"; };
+		8DDAF9455C47C4B6AB2280E1 /* PayrolleeMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayrolleeMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DDAF94AD384A840A421749C /* PayrolleeMateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayrolleeMateTests.swift; sourceTree = "<group>"; };
+		8DDAFA3B8B257FD371184D42 /* TestDecimalRoundingHundredsDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDecimalRoundingHundredsDown.swift; sourceTree = "<group>"; };
+		8DDAFA41518063EF102924B6 /* TestDecimalRoundingUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDecimalRoundingUp.swift; sourceTree = "<group>"; };
+		8DDAFB511D33C69C7FDF6BA1 /* TestSpanOfYears.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSpanOfYears.swift; sourceTree = "<group>"; };
+		8DDAFB61D661574A805EE138 /* DecRounding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecRounding.swift; sourceTree = "<group>"; };
+		8DDAFB937CC6BAFF7953141F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		8DDAFBD16E7FF93D856409C6 /* GeneralFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralFactory.swift; sourceTree = "<group>"; };
+		8DDAFBDE64F85DC7DE2C0261 /* TestIntegerRoundingUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestIntegerRoundingUp.swift; sourceTree = "<group>"; };
+		8DDAFE01758A732E065B1A41 /* SpanOfYears.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpanOfYears.swift; sourceTree = "<group>"; };
+		8DDAFEC79AFD70058EAD7365 /* GeneralCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralCollection.swift; sourceTree = "<group>"; };
+		8DDAFF557096A357D7F956BF /* TestDecimalRoundingHundredsUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDecimalRoundingHundredsUp.swift; sourceTree = "<group>"; };
+		8DDAFFABF10D0091D4DECD4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DDAFFD797D8509AE72FC4F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DDAF61C73D9B411D5BA1A5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DDAFFF9C0F3517C684CF04F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DDAF36E5E9A4016CC23273F = {
+			isa = PBXGroup;
+			children = (
+				8DDAFDA9D2E45B849ECAA809 /* Products */,
+				8DDAF7C7E8042826FF576238 /* PayrolleeMate */,
+				8DDAFF216FEF25BA18539162 /* PayrolleeMateTests */,
+			);
+			sourceTree = "<group>";
+		};
+		8DDAF51B0F7E919730E51FAA /* PayrolleeMate.Common */ = {
+			isa = PBXGroup;
+			children = (
+				8DDAF8949500F63A51A96546 /* Rounding */,
+				8DDAFE4E4F1E0390CF5326BA /* Periods */,
+				8DDAF99015DF7A23FD4DC813 /* Operations */,
+				8DDAFD6D10A2791A77453F1E /* Factories */,
+				8DDAFCC09F9B17699A187F31 /* Core */,
+				8DDAF5C857B7BB7E46279E5F /* Collections */,
+				8DDAFB5861A3EC8E55E3C147 /* Libs */,
+			);
+			path = PayrolleeMate.Common;
+			sourceTree = "<group>";
+		};
+		8DDAF5C857B7BB7E46279E5F /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				8DDAFEC79AFD70058EAD7365 /* GeneralCollection.swift */,
+			);
+			path = Collections;
+			sourceTree = "<group>";
+		};
+		8DDAF5E05053B60E23266B62 /* DecRounding */ = {
+			isa = PBXGroup;
+			children = (
+				8DDAFA41518063EF102924B6 /* TestDecimalRoundingUp.swift */,
+				8DDAF8836F3AC635E77807D9 /* TestDecimalRoundingDown.swift */,
+				8DDAF350BFCBC4337A3051BC /* TestDecimalRoundingToInt.swift */,
+				8DDAFF557096A357D7F956BF /* TestDecimalRoundingHundredsUp.swift */,
+				8DDAFA3B8B257FD371184D42 /* TestDecimalRoundingHundredsDown.swift */,
+			);
+			path = DecRounding;
+			sourceTree = "<group>";
+		};
+		8DDAF7C7E8042826FF576238 /* PayrolleeMate */ = {
+			isa = PBXGroup;
+			children = (
+				8DDAFE242711BB61626CF2AC /* Supporting Files */,
+				8DDAFFD797D8509AE72FC4F7 /* Images.xcassets */,
+				8DDAF2FCBBC10692B6C8AD67 /* LaunchScreen.xib */,
+				8DDAF1A9FD5E966332438477 /* AppDelegate.swift */,
+				8DDAFDDC7FF03CB4AA48B9FB /* Main.storyboard */,
+				8DDAF644F72FC166FA409F4E /* ViewController.swift */,
+				8DDAF51B0F7E919730E51FAA /* PayrolleeMate.Common */,
+			);
+			path = PayrolleeMate;
+			sourceTree = "<group>";
+		};
+		8DDAF82FB7AAF8ACC73D98EB /* IntRounding */ = {
+			isa = PBXGroup;
+			children = (
+				8DDAFBDE64F85DC7DE2C0261 /* TestIntegerRoundingUp.swift */,
+				8DDAF27F64C5301EAE37391F /* TestIntegerRoundingDown.swift */,
+				8DDAF14881DCBF5AC2DE51A1 /* TestIntegerRoundingHundredsUp.swift */,
+				8DDAF35554FBD73C4E24EBD5 /* TestIntegerRoundingHundredsDown.swift */,
+			);
+			path = IntRounding;
+			sourceTree = "<group>";
+		};
+		8DDAF8949500F63A51A96546 /* Rounding */ = {
+			isa = PBXGroup;
+			children = (
+				8DDAFB61D661574A805EE138 /* DecRounding.swift */,
+				8DDAF90420F4C9EB7B31D187 /* IntRounding.swift */,
+				8DDAF778D619C30257F82FE0 /* PayRounding.swift */,
+			);
+			path = Rounding;
+			sourceTree = "<group>";
+		};
+		8DDAF8F805BD312BA3BE5B5C /* Tests.Common */ = {
+			isa = PBXGroup;
+			children = (
+				8DDAF5E05053B60E23266B62 /* DecRounding */,
+				8DDAF82FB7AAF8ACC73D98EB /* IntRounding */,
+				8DDAFE20F345129C9209547E /* Periods */,
+			);
+			path = Tests.Common;
+			sourceTree = "<group>";
+		};
+		8DDAF99015DF7A23FD4DC813 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				8DDAF61C3DFC6457DA80205E /* DecOperations.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		8DDAFB5861A3EC8E55E3C147 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		8DDAFCC09F9B17699A187F31 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8DDAF3AFF7C9552003D97FF0 /* SymbolName.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8DDAFD6D10A2791A77453F1E /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				8DDAFBD16E7FF93D856409C6 /* GeneralFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		8DDAFDA9D2E45B849ECAA809 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DDAF9455C47C4B6AB2280E1 /* PayrolleeMate.app */,
+				8DDAF22E7FBBD287FA4CAE55 /* PayrolleeMateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DDAFE20F345129C9209547E /* Periods */ = {
+			isa = PBXGroup;
+			children = (
+				8DDAF725FCAF243C421B8866 /* TestMonthPeriod.swift */,
+				8DDAFB511D33C69C7FDF6BA1 /* TestSpanOfYears.swift */,
+			);
+			path = Periods;
+			sourceTree = "<group>";
+		};
+		8DDAFE242711BB61626CF2AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DDAF2285FC11511070CB62A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DDAFE4E4F1E0390CF5326BA /* Periods */ = {
+			isa = PBXGroup;
+			children = (
+				8DDAF16FB58DF0F9AFD22393 /* SeqOfYears.swift */,
+				8DDAF55F209A992B1E5BCE6E /* MonthPeriod.swift */,
+				8DDAFE01758A732E065B1A41 /* SpanOfYears.swift */,
+				8DDAF274D69D326D83729846 /* SpanOfMonths.swift */,
+			);
+			path = Periods;
+			sourceTree = "<group>";
+		};
+		8DDAFEED7C70D67C815F4CC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DDAFB937CC6BAFF7953141F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DDAFF216FEF25BA18539162 /* PayrolleeMateTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DDAFEED7C70D67C815F4CC3 /* Supporting Files */,
+				8DDAF94AD384A840A421749C /* PayrolleeMateTests.swift */,
+				8DDAF8F805BD312BA3BE5B5C /* Tests.Common */,
+			);
+			path = PayrolleeMateTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DDAF74332F158A63DC0083F /* PayrolleeMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DDAF8B1DE4F34552B6D429C /* Build configuration list for PBXNativeTarget "PayrolleeMateTests" */;
+			buildPhases = (
+				8DDAF25D6238443366752832 /* Sources */,
+				8DDAFFF9C0F3517C684CF04F /* Frameworks */,
+				8DDAF69992F4058EECE27067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DDAF851A66482114EDB8BF4 /* PBXTargetDependency */,
+			);
+			name = PayrolleeMateTests;
+			productName = PayrolleeMateTests;
+			productReference = 8DDAF22E7FBBD287FA4CAE55 /* PayrolleeMateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DDAFB9242E893409322D36D /* PayrolleeMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DDAFF31CBC5257C987F9E55 /* Build configuration list for PBXNativeTarget "PayrolleeMate" */;
+			buildPhases = (
+				8DDAFE5F7645AD4B350BE159 /* Sources */,
+				8DDAF61C73D9B411D5BA1A5B /* Frameworks */,
+				8DDAFBA2DF844BB914A43D7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayrolleeMate;
+			productName = PayrolleeMate;
+			productReference = 8DDAF9455C47C4B6AB2280E1 /* PayrolleeMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DDAF12A8A96CAE1A4D00710 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___MzdyHrave___";
+			};
+			buildConfigurationList = 8DDAFE03ED1FA99DFCAF00A5 /* Build configuration list for PBXProject "PayrolleeMate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8DDAF36E5E9A4016CC23273F;
+			productRefGroup = 8DDAFDA9D2E45B849ECAA809 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DDAFB9242E893409322D36D /* PayrolleeMate */,
+				8DDAF74332F158A63DC0083F /* PayrolleeMateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DDAF69992F4058EECE27067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DDAFBA2DF844BB914A43D7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDAFCF31A4098011C7C110A /* Images.xcassets in Resources */,
+				8DDAFE6C1F60A9649AA159CE /* LaunchScreen.xib in Resources */,
+				8DDAF6911B354C082BB775D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DDAF25D6238443366752832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDAF17A0558984954DDC1E1 /* PayrolleeMateTests.swift in Sources */,
+				8DDAFEAB46B12A957099617D /* TestDecimalRoundingUp.swift in Sources */,
+				8DDAFD398177738563B8AEC5 /* TestDecimalRoundingDown.swift in Sources */,
+				8DDAF730082545F60DEC8A88 /* TestDecimalRoundingToInt.swift in Sources */,
+				8DDAFF5587D36D511318AF6B /* TestDecimalRoundingHundredsUp.swift in Sources */,
+				8DDAFFA10AB267845CBD2370 /* TestDecimalRoundingHundredsDown.swift in Sources */,
+				8DDAFB8AE6F936F25EA42B64 /* TestIntegerRoundingUp.swift in Sources */,
+				8DDAFEB1EE8B06E1E90CD3C0 /* TestIntegerRoundingDown.swift in Sources */,
+				8DDAF480CF47326B5E3960AC /* TestIntegerRoundingHundredsUp.swift in Sources */,
+				8DDAFC05B05A756C9C35B67A /* TestIntegerRoundingHundredsDown.swift in Sources */,
+				8DDAF1F056E002284C1A6365 /* TestMonthPeriod.swift in Sources */,
+				8DDAFC9094467A32BEF747F7 /* TestSpanOfYears.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DDAFE5F7645AD4B350BE159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDAFBD0E94F0DA665346104 /* AppDelegate.swift in Sources */,
+				8DDAF8424D777F143519CD83 /* ViewController.swift in Sources */,
+				8DDAF3CF555697551B17E608 /* DecRounding.swift in Sources */,
+				8DDAF9C5BF04772D69FAEB0A /* IntRounding.swift in Sources */,
+				8DDAFA723CFC1EBABEFC0870 /* PayRounding.swift in Sources */,
+				8DDAFCC7202B4C46CBF8C0D8 /* SeqOfYears.swift in Sources */,
+				8DDAFF3083BFAA79861BB3BA /* MonthPeriod.swift in Sources */,
+				8DDAF532232A4AEA5DF8B941 /* SpanOfYears.swift in Sources */,
+				8DDAF478E7B3B49157621F0D /* SpanOfMonths.swift in Sources */,
+				8DDAF99BBCD4595F986C99BF /* DecOperations.swift in Sources */,
+				8DDAFF311B7F42B2EADD962B /* GeneralFactory.swift in Sources */,
+				8DDAFD07B4274E2476F1E559 /* SymbolName.swift in Sources */,
+				8DDAF01BE398E60B59E652B6 /* GeneralCollection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DDAF851A66482114EDB8BF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DDAFB9242E893409322D36D /* PayrolleeMate */;
+			targetProxy = 8DDAFDF5CE98762EC2F5D6A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DDAF2FCBBC10692B6C8AD67 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DDAF1A64217510120F8E1E0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		8DDAFDDC7FF03CB4AA48B9FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DDAFFABF10D0091D4DECD4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DDAF23DFB1533B3CA226AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PayrolleeMate.app/PayrolleeMate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PayrolleeMateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		8DDAF2CB4830A18DA5907127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PayrolleeMate.app/PayrolleeMate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PayrolleeMateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		8DDAF34AF6817572B3FA9DC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PayrolleeMate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8DDAFD4D6B47844F9B32BC99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DDAFD6F9F1A3687B076A720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DDAFE4675D53F92671FEA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PayrolleeMate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DDAF8B1DE4F34552B6D429C /* Build configuration list for PBXNativeTarget "PayrolleeMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DDAF23DFB1533B3CA226AA1 /* Debug */,
+				8DDAF2CB4830A18DA5907127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8DDAFE03ED1FA99DFCAF00A5 /* Build configuration list for PBXProject "PayrolleeMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DDAFD6F9F1A3687B076A720 /* Debug */,
+				8DDAFD4D6B47844F9B32BC99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DDAFF31CBC5257C987F9E55 /* Build configuration list for PBXNativeTarget "PayrolleeMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DDAFE4675D53F92671FEA33 /* Debug */,
+				8DDAF34AF6817572B3FA9DC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DDAF12A8A96CAE1A4D00710 /* Project object */;
+}
