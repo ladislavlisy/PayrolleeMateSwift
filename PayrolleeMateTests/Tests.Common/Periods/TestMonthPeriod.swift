@@ -7,115 +7,126 @@ import UIKit
 import XCTest
 
 class TestMonthPeriod: XCTestCase {
-
-//    UInt32 testPeriodCodeJan = 201401
-//    UInt32 testPeriodCodeFeb = 201402
-//    UInt32 testPeriodCode501 = 201501
-//    UInt32 testPeriodCode402 = 201402
+    let testPeriodCodeJan :  UInt32 = 201401;
+    let testPeriodCodeFeb :  UInt32 = 201402;
+    let testPeriodCode501 :  UInt32 = 201501;
+    let testPeriodCode402 :  UInt32 = 201402;
 
     override func setUp() {
-        super.setUp()
+        super.setUp();
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
 
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
+        super.tearDown();
     }
 
     func testShould_Compare_Different_Periods_AsEqual_When_2014_01() {
-    //    MonthPeriod testPeriodOne = new MonthPeriod (testPeriodCodeJan)
-    //
-    //    MonthPeriod testPeriodTwo = new MonthPeriod (testPeriodCodeJan)
-    //
-    //    XCTAssertEqual(testPeriodOne, testPeriodTwo)
+        let testPeriodOne = MonthPeriod (code: testPeriodCodeJan);
+
+        let testPeriodTwo = MonthPeriod (code: testPeriodCodeJan);
+
+        XCTAssertEqual(testPeriodOne, testPeriodTwo);
     }
 
     func testShould_Compare_Different_Periods_AsEqual_When_2014_02()  {
-    //    MonthPeriod testPeriodOne = new MonthPeriod (testPeriodCodeFeb)
-    //
-    //    MonthPeriod testPeriodTwo = new MonthPeriod (testPeriodCodeFeb)
-    //
-    //    XCTAssertEqual(testPeriodOne, testPeriodTwo)
+        let testPeriodOne = MonthPeriod (code: testPeriodCodeFeb);
+
+        let testPeriodTwo = MonthPeriod (code: testPeriodCodeFeb);
+
+        XCTAssertEqual(testPeriodOne, testPeriodTwo);
     }
 
     func testShould_Compare_Different_Periods_SameYear_AsGreater() {
-    //    MonthPeriod testPeriodOne = new MonthPeriod (testPeriodCodeJan)
-    //
-    //    MonthPeriod testPeriodTwo = new MonthPeriod (testPeriodCodeFeb)
-    //
-    //    XCTAssertNotEqual(testPeriodTwo, testPeriodOne)
-    //
-    //    XCTAssertGreaterThan(testPeriodTwo, testPeriodOne)
+        let testPeriodOne = MonthPeriod (code: testPeriodCodeJan);
+
+        let testPeriodTwo = MonthPeriod (code: testPeriodCodeFeb);
+
+        XCTAssertNotEqual(testPeriodTwo, testPeriodOne);
+
+        XCTAssertGreaterThan(testPeriodTwo, testPeriodOne);
     }
 
     func testShould_Compare_Different_Periods_SameYear_AsLess() {
-    //    MonthPeriod testPeriodOne = new MonthPeriod (testPeriodCodeJan)
-    //
-    //    MonthPeriod testPeriodTwo = new MonthPeriod (testPeriodCodeFeb)
-    //
-    //    XCTAssertNotEqual(testPeriodOne, testPeriodTwo)
-    //
-    //    XCTAssertLess(testPeriodOne, testPeriodTwo)
+        let testPeriodOne = MonthPeriod (code: testPeriodCodeJan);
+
+        let testPeriodTwo = MonthPeriod (code: testPeriodCodeFeb);
+
+        XCTAssertNotEqual(testPeriodOne, testPeriodTwo);
+
+        XCTAssertLessThan(testPeriodOne, testPeriodTwo);
     }
 
     func testShould_Compare_Different_Periods_SameMonth_AsGreater()  {
-    //    MonthPeriod testPeriodOne = new MonthPeriod (testPeriodCodeJan)
-    //
-    //    MonthPeriod testPeriodTwo = new MonthPeriod (testPeriodCode501)
-    //
-    //    XCTAssertNotEqual(testPeriodTwo, testPeriodOne)
-    //
-    //    XCTAssertGreaterThan(testPeriodTwo, testPeriodOne)
+        let testPeriodOne = MonthPeriod (code: testPeriodCodeJan);
+
+        let testPeriodTwo = MonthPeriod (code: testPeriodCode501);
+
+        XCTAssertNotEqual(testPeriodTwo, testPeriodOne);
+
+        XCTAssertGreaterThan(testPeriodTwo, testPeriodOne);
     }
 
     func testShould_Compare_Different_Periods_SameMonth_AsLess() {
-    //    MonthPeriod testPeriodOne = new MonthPeriod (testPeriodCodeJan)
-    //
-    //    MonthPeriod testPeriodTwo = new MonthPeriod (testPeriodCode501)
-    //
-    //    XCTAssertNotEqual(testPeriodOne, testPeriodTwo)
-    //
-    //    XCTAssertLess(testPeriodOne, testPeriodTwo)
+        let testPeriodOne = MonthPeriod (code: testPeriodCodeJan);
+
+        let testPeriodTwo = MonthPeriod (code: testPeriodCode501);
+
+        XCTAssertNotEqual(testPeriodOne, testPeriodTwo);
+
+        XCTAssertLessThan(testPeriodOne, testPeriodTwo);
     }
 
     func testShould_Compare_Different_Periods_DifferentYear_AsGreater() {
-    //    MonthPeriod testPeriodOne = new MonthPeriod (testPeriodCode402)
-    //
-    //    MonthPeriod testPeriodTwo = new MonthPeriod (testPeriodCode501)
-    //
-    //    XCTAssertNotEqual(testPeriodTwo, testPeriodOne)
-    //
-    //    XCTAssertGreaterThan(testPeriodTwo, testPeriodOne)
+        let testPeriodOne = MonthPeriod (code: testPeriodCode402);
+
+        let testPeriodTwo = MonthPeriod (code: testPeriodCode501);
+
+        XCTAssertNotEqual(testPeriodTwo, testPeriodOne);
+
+        XCTAssertGreaterThan(testPeriodTwo, testPeriodOne);
     }
 
     func testShould_Compare_Different_Periods_DifferentYear_AsLess() {
-    //    MonthPeriod testPeriodOne = new MonthPeriod (testPeriodCode402)
-    //
-    //    MonthPeriod testPeriodTwo = new MonthPeriod (testPeriodCode501)
-    //
-    //    XCTAssertNotEqual(testPeriodOne, testPeriodTwo)
-    //
-    //    XCTAssertLess(testPeriodOne, testPeriodTwo)
+        let testPeriodOne = MonthPeriod (code: testPeriodCode402);
+
+        let testPeriodTwo = MonthPeriod (code: testPeriodCode501);
+
+        XCTAssertNotEqual(testPeriodOne, testPeriodTwo);
+
+        XCTAssertLessThan(testPeriodOne, testPeriodTwo);
     }
 
     func testShould_Return_Periods_Year_And_Month_2014_01() {
-    //    MonthPeriod testPeriodOne = new MonthPeriod (testPeriodCodeJan)
-    //
-    //    XCTAssertEqual(testPeriodOne.Year(), 2014)
-    //    XCTAssertEqual(testPeriodOne.Month(), 1)
-    //
-    //    XCTAssertEqual(testPeriodOne.YearInt(), 2014)
-    //    XCTAssertEqual(testPeriodOne.MonthInt(), 1)
+        let testPeriodOne = MonthPeriod (code: testPeriodCodeJan);
+
+        XCTAssertEqual(testPeriodOne.year(), 2014);
+        XCTAssertEqual(testPeriodOne.month(), 1);
+
+        XCTAssertEqual(testPeriodOne.yearInt(), 2014);
+        XCTAssertEqual(testPeriodOne.monthInt(), 1);
     }
 
     func testShould_Return_Periods_Year_And_Month_2014_02() {
-    //    MonthPeriod testPeriodTwo = new MonthPeriod (testPeriodCodeFeb)
-    //
-    //    XCTAssertEqual((testPeriodTwo.Year(), 2014)
-    //    XCTAssertEqual((testPeriodTwo.Month(), 2)
-    //
-    //    XCTAssertEqual((testPeriodTwo.YearInt(), 2014)
-    //    XCTAssertEqual((testPeriodTwo.MonthInt(), 2)
+        let testPeriodTwo = MonthPeriod (code: testPeriodCodeFeb);
+
+        XCTAssertEqual(testPeriodTwo.year(), 2014);
+        XCTAssertEqual(testPeriodTwo.month(), 2);
+
+        XCTAssertEqual(testPeriodTwo.yearInt(), 2014);
+        XCTAssertEqual(testPeriodTwo.monthInt(), 2);
+    }
+
+    func testShould_Return_Periods_Month_And_Year_Description() {
+        let testPeriodJan = MonthPeriod (code: testPeriodCodeJan);
+        let testPeriodFeb = MonthPeriod (code: testPeriodCodeFeb);
+        let testPeriod501 = MonthPeriod (code: testPeriodCode501);
+        let testPeriod402 = MonthPeriod (code: testPeriodCode402);
+
+        XCTAssertEqual(testPeriodJan.description(), "January 2014");
+        XCTAssertEqual(testPeriodFeb.description(), "February 2014");
+        XCTAssertEqual(testPeriod501.description(), "January 2015");
+        XCTAssertEqual(testPeriod402.description(), "February 2014");
     }
 }

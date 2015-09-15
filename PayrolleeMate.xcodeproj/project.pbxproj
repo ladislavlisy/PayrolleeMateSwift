@@ -8,32 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		8DDAF01BE398E60B59E652B6 /* GeneralCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAFEC79AFD70058EAD7365 /* GeneralCollection.swift */; };
+		8DDAF0A8CCF72A6BCA99A5D2 /* SpanOfYears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAFE01758A732E065B1A41 /* SpanOfYears.swift */; };
 		8DDAF17A0558984954DDC1E1 /* PayrolleeMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF94AD384A840A421749C /* PayrolleeMateTests.swift */; };
 		8DDAF1F056E002284C1A6365 /* TestMonthPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF725FCAF243C421B8866 /* TestMonthPeriod.swift */; };
+		8DDAF30C2EC401429D63725D /* GeneralFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAFBD16E7FF93D856409C6 /* GeneralFactory.swift */; };
 		8DDAF3CF555697551B17E608 /* DecRounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAFB61D661574A805EE138 /* DecRounding.swift */; };
 		8DDAF478E7B3B49157621F0D /* SpanOfMonths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF274D69D326D83729846 /* SpanOfMonths.swift */; };
 		8DDAF480CF47326B5E3960AC /* TestIntegerRoundingHundredsUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF14881DCBF5AC2DE51A1 /* TestIntegerRoundingHundredsUp.swift */; };
+		8DDAF48F85D4E3E4C539414E /* DecRounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAFB61D661574A805EE138 /* DecRounding.swift */; };
 		8DDAF532232A4AEA5DF8B941 /* SpanOfYears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAFE01758A732E065B1A41 /* SpanOfYears.swift */; };
+		8DDAF5B20B5CDC4164283888 /* SeqOfYears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF16FB58DF0F9AFD22393 /* SeqOfYears.swift */; };
+		8DDAF5CFA48B6EAE06B74D78 /* SymbolName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF3AFF7C9552003D97FF0 /* SymbolName.swift */; };
 		8DDAF6911B354C082BB775D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DDAFDDC7FF03CB4AA48B9FB /* Main.storyboard */; };
+		8DDAF6E7A4B56704BA0631AB /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF59B5C3F2807FD25F783 /* NSDateExtension.swift */; };
+		8DDAF6F3555582A9BDBF7846 /* PayRounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF778D619C30257F82FE0 /* PayRounding.swift */; };
 		8DDAF730082545F60DEC8A88 /* TestDecimalRoundingToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF350BFCBC4337A3051BC /* TestDecimalRoundingToInt.swift */; };
 		8DDAF8424D777F143519CD83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF644F72FC166FA409F4E /* ViewController.swift */; };
+		8DDAF94B117AE844F64B64E0 /* IntRounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF90420F4C9EB7B31D187 /* IntRounding.swift */; };
 		8DDAF99BBCD4595F986C99BF /* DecOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF61C3DFC6457DA80205E /* DecOperations.swift */; };
 		8DDAF9C5BF04772D69FAEB0A /* IntRounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF90420F4C9EB7B31D187 /* IntRounding.swift */; };
 		8DDAFA723CFC1EBABEFC0870 /* PayRounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF778D619C30257F82FE0 /* PayRounding.swift */; };
+		8DDAFAB53A9D1E919A641C74 /* SpanOfMonths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF274D69D326D83729846 /* SpanOfMonths.swift */; };
 		8DDAFB8AE6F936F25EA42B64 /* TestIntegerRoundingUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAFBDE64F85DC7DE2C0261 /* TestIntegerRoundingUp.swift */; };
 		8DDAFBD0E94F0DA665346104 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF1A9FD5E966332438477 /* AppDelegate.swift */; };
 		8DDAFC05B05A756C9C35B67A /* TestIntegerRoundingHundredsDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF35554FBD73C4E24EBD5 /* TestIntegerRoundingHundredsDown.swift */; };
 		8DDAFC9094467A32BEF747F7 /* TestSpanOfYears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAFB511D33C69C7FDF6BA1 /* TestSpanOfYears.swift */; };
 		8DDAFCC7202B4C46CBF8C0D8 /* SeqOfYears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF16FB58DF0F9AFD22393 /* SeqOfYears.swift */; };
+		8DDAFCCB67FB6807D75DDA3C /* GeneralCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAFEC79AFD70058EAD7365 /* GeneralCollection.swift */; };
 		8DDAFCF31A4098011C7C110A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DDAFFD797D8509AE72FC4F7 /* Images.xcassets */; };
 		8DDAFD07B4274E2476F1E559 /* SymbolName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF3AFF7C9552003D97FF0 /* SymbolName.swift */; };
 		8DDAFD398177738563B8AEC5 /* TestDecimalRoundingDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF8836F3AC635E77807D9 /* TestDecimalRoundingDown.swift */; };
 		8DDAFE6C1F60A9649AA159CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DDAF2FCBBC10692B6C8AD67 /* LaunchScreen.xib */; };
 		8DDAFEAB46B12A957099617D /* TestDecimalRoundingUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAFA41518063EF102924B6 /* TestDecimalRoundingUp.swift */; };
 		8DDAFEB1EE8B06E1E90CD3C0 /* TestIntegerRoundingDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF27F64C5301EAE37391F /* TestIntegerRoundingDown.swift */; };
+		8DDAFF21B8A71FC89694E074 /* MonthPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF55F209A992B1E5BCE6E /* MonthPeriod.swift */; };
+		8DDAFF255A108EF6578B90CC /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF59B5C3F2807FD25F783 /* NSDateExtension.swift */; };
 		8DDAFF3083BFAA79861BB3BA /* MonthPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF55F209A992B1E5BCE6E /* MonthPeriod.swift */; };
 		8DDAFF311B7F42B2EADD962B /* GeneralFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAFBD16E7FF93D856409C6 /* GeneralFactory.swift */; };
 		8DDAFF5587D36D511318AF6B /* TestDecimalRoundingHundredsUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAFF557096A357D7F956BF /* TestDecimalRoundingHundredsUp.swift */; };
+		8DDAFF91FEC189DD94C2B302 /* DecOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF61C3DFC6457DA80205E /* DecOperations.swift */; };
 		8DDAFFA10AB267845CBD2370 /* TestDecimalRoundingHundredsDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAFA3B8B257FD371184D42 /* TestDecimalRoundingHundredsDown.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +73,7 @@
 		8DDAF35554FBD73C4E24EBD5 /* TestIntegerRoundingHundredsDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestIntegerRoundingHundredsDown.swift; sourceTree = "<group>"; };
 		8DDAF3AFF7C9552003D97FF0 /* SymbolName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymbolName.swift; sourceTree = "<group>"; };
 		8DDAF55F209A992B1E5BCE6E /* MonthPeriod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthPeriod.swift; sourceTree = "<group>"; };
+		8DDAF59B5C3F2807FD25F783 /* NSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExtension.swift; sourceTree = "<group>"; };
 		8DDAF61C3DFC6457DA80205E /* DecOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecOperations.swift; sourceTree = "<group>"; };
 		8DDAF644F72FC166FA409F4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8DDAF725FCAF243C421B8866 /* TestMonthPeriod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestMonthPeriod.swift; sourceTree = "<group>"; };
@@ -199,6 +213,7 @@
 		8DDAFB5861A3EC8E55E3C147 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				8DDAF59B5C3F2807FD25F783 /* NSDateExtension.swift */,
 			);
 			path = Libs;
 			sourceTree = "<group>";
@@ -375,6 +390,18 @@
 				8DDAFC05B05A756C9C35B67A /* TestIntegerRoundingHundredsDown.swift in Sources */,
 				8DDAF1F056E002284C1A6365 /* TestMonthPeriod.swift in Sources */,
 				8DDAFC9094467A32BEF747F7 /* TestSpanOfYears.swift in Sources */,
+				8DDAFF21B8A71FC89694E074 /* MonthPeriod.swift in Sources */,
+				8DDAF5B20B5CDC4164283888 /* SeqOfYears.swift in Sources */,
+				8DDAFAB53A9D1E919A641C74 /* SpanOfMonths.swift in Sources */,
+				8DDAF0A8CCF72A6BCA99A5D2 /* SpanOfYears.swift in Sources */,
+				8DDAF48F85D4E3E4C539414E /* DecRounding.swift in Sources */,
+				8DDAF94B117AE844F64B64E0 /* IntRounding.swift in Sources */,
+				8DDAF6F3555582A9BDBF7846 /* PayRounding.swift in Sources */,
+				8DDAFF91FEC189DD94C2B302 /* DecOperations.swift in Sources */,
+				8DDAF6E7A4B56704BA0631AB /* NSDateExtension.swift in Sources */,
+				8DDAF30C2EC401429D63725D /* GeneralFactory.swift in Sources */,
+				8DDAF5CFA48B6EAE06B74D78 /* SymbolName.swift in Sources */,
+				8DDAFCCB67FB6807D75DDA3C /* GeneralCollection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +422,7 @@
 				8DDAFF311B7F42B2EADD962B /* GeneralFactory.swift in Sources */,
 				8DDAFD07B4274E2476F1E559 /* SymbolName.swift in Sources */,
 				8DDAF01BE398E60B59E652B6 /* GeneralCollection.swift in Sources */,
+				8DDAFF255A108EF6578B90CC /* NSDateExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
