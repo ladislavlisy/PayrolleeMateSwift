@@ -5,13 +5,17 @@
 
 import Foundation
 
-public class SpanOfYears: Equatable, Comparable, DebugPrintable {
+public class SpanOfYears: Equatable, Comparable, CustomDebugStringConvertible {
     static func createFromYear(year:UInt32) -> SpanOfYears {
         return SpanOfYears(from: year, upto: year);
     }
 
     static func createFromYearToYear(from:UInt32, upto:UInt32) -> SpanOfYears {
         return SpanOfYears(from: from, upto: upto);
+    }
+
+    static func empty() -> SpanOfYears {
+        return SpanOfYears(from: 0, upto: 0);
     }
 
     private let from: UInt32

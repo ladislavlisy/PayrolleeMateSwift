@@ -5,7 +5,7 @@
 
 import Foundation
 
-public class SpanOfMonths: Equatable, Comparable, DebugPrintable {
+public class SpanOfMonths: Equatable, Comparable, CustomDebugStringConvertible {
     static func createFromYear(year:UInt32) -> SpanOfMonths {
         return SpanOfMonths(from: MonthPeriod.beginYear(year), upto: MonthPeriod.endYear(year));
     }
@@ -43,11 +43,11 @@ public class SpanOfMonths: Equatable, Comparable, DebugPrintable {
     }
 
     func isEqualToInterval(other : SpanOfMonths) -> Bool {
-        return (from == other.from && upto == other.upto);
+        return (from.isEqualToPeriod(other.from) && upto.isEqualToPeriod(other.upto));
     }
 
     func className() -> String {
-        if (from == upto) {
+        if (from.isEqualToPeriod(upto)) {
             return "\(from)";
         }
         return "\(from)to\(upto)";

@@ -5,14 +5,14 @@
 
 import Foundation
 
-public class MonthPeriod: Equatable, Comparable, DebugPrintable {
+public class MonthPeriod: Equatable, Comparable, CustomDebugStringConvertible {
     static let PRESENT: UInt32 = 0;
     static let TERM_BEG_FINISHED: UInt32 = 32;
     static let TERM_END_FINISHED: UInt32 = 0;
     static let WEEKSUN_SUNDAY: Int = 0;
     static let WEEKMON_SUNDAY: Int = 7;
 
-    static func createFrom(#year:UInt32, month: UInt32) -> MonthPeriod {
+    static func createFrom(year year:UInt32, month: UInt32) -> MonthPeriod {
         return MonthPeriod(year: year, month: month);
     }
 
@@ -89,7 +89,7 @@ public class MonthPeriod: Equatable, Comparable, DebugPrintable {
     }
 
     func dateOfMonth(dayOrdinal: Int) -> NSDate? {
-        var periodDay = min(max(1, dayOrdinal), daysInMonth());
+        let periodDay = min(max(1, dayOrdinal), daysInMonth());
         return NSDate.Date(year: yearInt(), month: monthInt(), day: periodDay);
     }
 
@@ -116,8 +116,8 @@ public class MonthPeriod: Equatable, Comparable, DebugPrintable {
 
     func description() -> String {
         if let periodDate = beginOfMonth() {
-            var initLocale = NSLocale(localeIdentifier: "us_US");
-            var dateFormat = NSDateFormatter();
+            let initLocale = NSLocale(localeIdentifier: "us_US");
+            let dateFormat = NSDateFormatter();
 
             dateFormat.locale = initLocale;
             dateFormat.dateFormat = "MMMM yyyy";
@@ -139,7 +139,7 @@ public class MonthPeriod: Equatable, Comparable, DebugPrintable {
 }
 
 public func toString(period: MonthPeriod) -> String {
-    return toString(period.code());
+    return String(period.code());
 }
 
 public func == (first: MonthPeriod, other: MonthPeriod) -> Bool {

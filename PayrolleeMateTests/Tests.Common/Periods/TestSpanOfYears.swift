@@ -46,7 +46,7 @@ class TestSpanOfYears: XCTestCase {
             SpanOfYears(from: 2017, upto: 2099)
         ];
 
-        let testIntervalArray = testYearArray.toYearsIntervalList();
+        let testIntervalArray = testYearArray.yearsIntervalList();
         XCTAssertEqual(expIntervalArray, testIntervalArray);
     }
     
