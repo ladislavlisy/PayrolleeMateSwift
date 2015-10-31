@@ -22,6 +22,7 @@
       <sourceFolder url="file://$MODULE_DIR$/PayrolleeMate/ViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PayrolleeMateTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PayrolleeMateTests/PayrolleeMateTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PayrolleeMateTests/Tests.Common/Core/TestSymbolName.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PayrolleeMateTests/Tests.Common/DecRounding/TestDecimalRoundingDown.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PayrolleeMateTests/Tests.Common/DecRounding/TestDecimalRoundingHundredsDown.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PayrolleeMateTests/Tests.Common/DecRounding/TestDecimalRoundingHundredsUp.swift" isTestSource="false" />

@@ -28,8 +28,10 @@ class SeqOfYears {
         }
         var sortedYears = years.sort(isSortedBefore);
 
-        let beginsYears = sortedYears.filter(yearZeroFilter);
-        let finishYears = Array(sortedYears[1..<sortedYears.count]);
+        let beginsBound = sortedYears.count-1;
+        let beginsYears = Array(sortedYears[0..<beginsBound]);
+        let finishBound = sortedYears.count;
+        let finishYears = Array(sortedYears[1..<finishBound]);
         let sortedZiped = Zip2Sequence(beginsYears, finishYears);
         milestones = sortedZiped.map {(from, upto) in transformYearsToSpan(yearFrom: from, yearUpto: upto)};
     }

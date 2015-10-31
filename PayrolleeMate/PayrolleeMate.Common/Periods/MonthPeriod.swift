@@ -34,7 +34,7 @@ public class MonthPeriod: Equatable, Comparable, CustomDebugStringConvertible {
         return periodDateCwd;
     }
 
-    private let periodCode: UInt32
+    private let periodCode: UInt32;
 
     init(code: UInt32) {
         self.periodCode = code;
@@ -114,6 +114,10 @@ public class MonthPeriod: Equatable, Comparable, CustomDebugStringConvertible {
         }
     }
 
+    func isEqualToPeriod(other : MonthPeriod) -> Bool {
+        return (periodCode == other.periodCode);
+    }
+
     func description() -> String {
         if let periodDate = beginOfMonth() {
             let initLocale = NSLocale(localeIdentifier: "us_US");
@@ -126,10 +130,6 @@ public class MonthPeriod: Equatable, Comparable, CustomDebugStringConvertible {
             return dateString;
         }
         return "";
-    }
-
-    func isEqualToPeriod(other : MonthPeriod) -> Bool {
-        return (periodCode == other.periodCode);
     }
 
     public var debugDescription: String {

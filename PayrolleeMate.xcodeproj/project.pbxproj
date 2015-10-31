@@ -16,6 +16,7 @@
 		8DDAF478E7B3B49157621F0D /* SpanOfMonths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF274D69D326D83729846 /* SpanOfMonths.swift */; };
 		8DDAF480CF47326B5E3960AC /* TestIntegerRoundingHundredsUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF14881DCBF5AC2DE51A1 /* TestIntegerRoundingHundredsUp.swift */; };
 		8DDAF48F85D4E3E4C539414E /* DecRounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAFB61D661574A805EE138 /* DecRounding.swift */; };
+		8DDAF4FADED396D4E0FF676F /* TestSymbolName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF116ABB90F1477849C30 /* TestSymbolName.swift */; };
 		8DDAF532232A4AEA5DF8B941 /* SpanOfYears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAFE01758A732E065B1A41 /* SpanOfYears.swift */; };
 		8DDAF5B20B5CDC4164283888 /* SeqOfYears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF16FB58DF0F9AFD22393 /* SeqOfYears.swift */; };
 		8DDAF5CFA48B6EAE06B74D78 /* SymbolName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF3AFF7C9552003D97FF0 /* SymbolName.swift */; };
@@ -61,6 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8DDAF116ABB90F1477849C30 /* TestSymbolName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSymbolName.swift; sourceTree = "<group>"; };
 		8DDAF14881DCBF5AC2DE51A1 /* TestIntegerRoundingHundredsUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestIntegerRoundingHundredsUp.swift; sourceTree = "<group>"; };
 		8DDAF16FB58DF0F9AFD22393 /* SeqOfYears.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeqOfYears.swift; sourceTree = "<group>"; };
 		8DDAF1A64217510120F8E1E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -171,6 +173,14 @@
 			path = PayrolleeMate;
 			sourceTree = "<group>";
 		};
+		8DDAF7D808BF09156B17C3A8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8DDAF116ABB90F1477849C30 /* TestSymbolName.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		8DDAF82FB7AAF8ACC73D98EB /* IntRounding */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +208,7 @@
 				8DDAF5E05053B60E23266B62 /* DecRounding */,
 				8DDAF82FB7AAF8ACC73D98EB /* IntRounding */,
 				8DDAFE20F345129C9209547E /* Periods */,
+				8DDAF7D808BF09156B17C3A8 /* Core */,
 			);
 			path = Tests.Common;
 			sourceTree = "<group>";
@@ -402,6 +413,7 @@
 				8DDAF30C2EC401429D63725D /* GeneralFactory.swift in Sources */,
 				8DDAF5CFA48B6EAE06B74D78 /* SymbolName.swift in Sources */,
 				8DDAFCCB67FB6807D75DDA3C /* GeneralCollection.swift in Sources */,
+				8DDAF4FADED396D4E0FF676F /* TestSymbolName.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
